@@ -1,0 +1,381 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  #landingpage{
+    height: 100vh;
+    background:url('bildes/night-sky.jpg');
+    background-position: center bottom;
+    margin-bottom: 100px;
+  }
+
+.navbar{
+    height:70px;
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color:#ffffff;
+}
+
+nav.shrink{
+    background-color:rgba(0,0,0,0.5);
+    height:70px;
+    padding-top:0px;
+}
+/*sis strada bet to var pielagot*/
+nav.shrink .navbar-brand {
+    font-size:20px;
+    color:#ffffff;
+}
+/*sis ari saka stradat*/
+nav.shrink .collapse .navbar-nav >a{
+    color:#ffffff;
+    font-size:16px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+  /*margin-top ar mīnusu- paceļ uz augšu h1*/
+.introduction {
+    height: 100vh;
+    /*zemāk ir flexbox elementi*/
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align:center;
+    position: relative;
+}
+
+/*> h1 vēršos pie tiešā introduction bērna- h1*/
+/*margin-top ar mīnusu- paceļ uz augšu h1*/
+.introduction > h1 {
+    color:#ffffff;
+}
+
+.introduction > h5 {
+    font-size:50px;
+    color:#ffffff;
+    font-family: shadows into light,cursive;
+    margin-bottom:8px;
+}
+.introduction > h2 {
+    font-size:80px;
+    color:#ffffff;
+    letter-spacing: 10px;
+    font-weight: 700px;
+    margin-bottom:40px;
+}
+
+.btn-secondary{
+    width:230px;
+    background-color:#ffc107;
+    color:#000000;
+    border:3px solid #ffffff;
+    text-align: center;
+}
+
+.btn-secondary:hover{
+    color:#BC6E54;
+    border-color:#BC6E54;
+    background-color:#ffc107;
+}
+
+.active1 {
+    background-color:#ffc107;
+}
+
+
+
+
+
+
+
+
+
+#intro{
+    height: 100vh;
+    padding-top:100px;
+    margin-bottom: 100px;
+    
+}
+
+.container{
+    max-width: 800px;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+.goodday{
+    font-size: 38px;
+    font-weight:700;
+    text-align:center;
+    margin-bottom: 25px;
+    margin-left:20px;
+    font-family: shadows into light,cursive;
+}
+
+.pamatfonts{
+    font-family:source sans pro,sans-serif;
+    line-height:1.8;
+    color: #888888;
+    font-size:24px;
+    margin-left:20px;
+    margin-bottom:50px; 
+}
+
+#mypicture{
+    width:100%;
+    margin-top: 75px;   
+}
+
+.buttons{
+    text-align:center;
+}
+
+#button2{
+    width:230px;
+    background-color:#ffffff;
+    color:#000000;
+    border:3px solid #000000;
+}
+
+#button2:hover{
+    background-color:#ffc107;
+    color:#000000;
+    border-color:#ffc107;
+}
+
+
+
+
+
+
+
+#resume{
+    min-width: 100vh;
+    padding-top:100px;
+    margin-bottom: 100px;  
+}
+
+
+.experience{
+    margin-bottom: 45px;
+}
+
+.col-3{
+    
+    padding-left:0;
+    padding-right: 25px;
+}
+
+.col-9{
+    
+    padding-right:0;
+}
+
+.activity{
+    width:100%;
+    font-size: 15px;
+    height: 24px;
+    font-weight: bold;
+    text-align:right;
+    margin-bottom:5px;
+    color:	#422C38;
+}
+
+.time-job{
+    width:100%;
+    font-size: 14px;
+    text-align:right;
+    margin-bottom:10px;
+    color:	#9D5E55;
+    height:63.34px;
+}
+.time-other{
+    width:100%;
+    font-size: 14px;
+    text-align:right;
+    margin-bottom:10px;
+    color:	#9D5E55;
+    height:40px;  
+}
+.time-prize{
+    width:100%;
+    font-size: 14px;
+    text-align:right;
+    margin-bottom:10px;
+    color:	#9D5E55;
+    height:33.34px;  
+}
+
+.description{
+    margin-bottom:10px;
+}
+
+.job{
+    font-size:14px;
+    color:	#422C38;
+    font-weight:bold;
+    margin-bottom:4px;
+}
+
+.place, .responsibilities{
+    margin-bottom:4px;
+    font-size:13px;
+}
+
+.resumeborder{
+    width:100%;
+    height:24px;
+    border-bottom: 2px solid	#9D5E55;
+    margin-bottom:5px;
+}
+#button3{
+    width:230px;
+    background-color:#ffffff;
+    color:#000000;
+    border:3px solid #000000;
+}
+
+#button3:hover{
+    background-color:#ffc107;
+    color:#000000;
+    border-color:#ffc107;
+}
+
+
+
+
+
+
+
+
+
+#gallerysection{
+    min-width: 100vh;
+    padding-top:100px;
+    margin-bottom: 100px;  
+}
+.gallery-row{
+    margin-bottom: 50px;   
+}
+.img-thumbnail{
+    margin-bottom:10px;
+}
+.modal-body{
+    padding:0px;
+}
+.modal-content{
+    width:560px;
+}
+#button4{
+    width:230px;
+    background-color:#ffffff;
+    color:#000000;
+    border:3px solid #000000;
+}
+
+#button4:hover{
+    background-color:#ffc107;
+    color:#000000;
+    border-color:#ffc107;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contacts{
+    height: 100vh;
+    
+    padding-top:100px;
+}
+.contactcontainer {
+    max-width: 960px;
+    height:500px;
+    background-color:red;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contact-form-area{
+    background: #fff;
+    box-shadow: 0 0 30px #ededed;
+    padding: 60px 40px;
+    height:100%;
+}
+.contact-block{
+    width:100%;
+    height:100%;
+}
+.contacttext{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Source Sans Pro", sans-serif;
+    line-height: 1.2;
+}
+#contactForm {
+    margin-top: 30px;
+}
+.form-control{
+    border-radius: 0;
+}
+.footer-right-contact{
+    padding: 4px;
+    border: 1px solid #e1e1e1;
+    margin-top: 30px;
+}
+.footer-right-contact .single-contact {
+    margin: 10px 22px;
+    padding: 3px 55px;
+    position: relative;
+    color: #666;
+}
+.footer-right-contact .contact-icon {
+    background: #00b4d9;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    height: 40px;
+    left: 0;
+    padding-top: 5px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 40px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa-map-marker:before {
+    content: "\f041";
+}
+.footer-right-contact .single-contact p {
+    margin-bottom: 5px; 
+}
+.footer-right-contact .single-contact p a {
+    text-decoration:none;
+    color: #666;
+}

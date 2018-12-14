@@ -272,6 +272,7 @@ nav.shrink .collapse .navbar-nav >a{
 }
 .modal-content{
     width:560px;
+    background-color:black;
 }
 #button4{
     width:230px;
@@ -284,6 +285,9 @@ nav.shrink .collapse .navbar-nav >a{
     background-color:#ffc107;
     color:#000000;
     border-color:#ffc107;
+}
+.btn{
+    background-color:#ffc107; 
 }
 
 
